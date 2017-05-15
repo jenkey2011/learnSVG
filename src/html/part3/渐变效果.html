@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<svg width="500" height="500">
+		<defs>
+			<linearGradient id="linearGradient">
+				<stop offset="0%" stop-color="green" />
+				<stop offset="100%" stop-color="pink" />
+			</linearGradient>
+		</defs>
+		<defs>
+			<radialGradient id="radialGradient">
+			<stop offset="0%" stop-color="red" />
+			<stop offset="100%" stop-color="orange" />
+			</radialGradient>
+		</defs>
+		<rect x="0" y="0" width="300" height="150" fill="url(#linearGradient)" stroke="" stroke-width=""/>
+		<rect x="0" y="200" width="200" height="200" fill="url(#radialGradient)" stroke="" stroke-width=""/>
+	</svg>
+</body>
+</html>

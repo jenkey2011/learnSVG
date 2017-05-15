@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<svg width="500" height="500">
+		<defs>
+			<filter id="myFilter" x="0" y="0">
+				<feGaussianBlur in="SourceGraphic" stdDeviation="6">
+			</filter>
+		</defs>
+		<rect x="30" y="40" width="200" height="150" fill="red" filter="url(#myFilter)">
+	</svg>
+</body>
+</html>

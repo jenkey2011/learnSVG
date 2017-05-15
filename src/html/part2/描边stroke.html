@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<svg width="500" height="500">
+		<g>
+			<text x="50" y="20">stroke</text>
+			<path d="M 50 50 L 350 50" stroke-width="10" stroke="orange" fill="none"/>
+		</g>
+		<g>
+			<text x="50" y="100">stroke linecap</text>
+			<path d="M 50 130 L 350 130" stroke-width="10" stroke="orange" stroke-linecap="butt" fill="none"/>
+			<path d="M 50 160 L 350 160" stroke-width="10" stroke="orange" stroke-linecap="round" fill="none"/>
+			<path d="M 50 190 L 350 190" stroke-width="10" stroke="orange" stroke-linecap="square" fill="none"/>
+		</g>
+		<g>
+			<!-- stroke-dasharray="a,b"  a单个虚线长度 b表示间隔-->
+			<text x="50" y="210">stroke linecap</text>
+			<path d="M 50 230 L 350 230" stroke-width="10" stroke="orange" stroke-dasharray="10,5" fill="none"/>
+			<path d="M 50 260 L 350 260" stroke-width="10" stroke="orange" stroke-dasharray="15,15" fill="none"/>
+			<path d="M 50 290 L 350 290" stroke-width="10" stroke="orange" stroke-dasharray="55,2" fill="none"/>
+		</g>
+		
+	</svg>
+</body>
+</html>
